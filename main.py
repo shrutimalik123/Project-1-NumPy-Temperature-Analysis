@@ -8,3 +8,13 @@ print(f"Celsius Temperatures:\n{celsius_temps}")
 # Convert to Fahrenheit
 fahrenheit_temps = (celsius_temps * 9/5) + 32
 print(f"\nFahrenheit Temperatures:\n{fahrenheit_temps}")
+
+# Calculate statistics
+mean_temp = np.mean(celsius_temps)
+max_temp = np.max(celsius_temps)
+min_temp = np.min(celsius_temps)
+
+print(f"\nBasic Statistics:")
+print(f"Mean Temperature: {mean_temp:.2f} C")
+print(f"Max Temperature: {max_temp} C")
+print(f"Min Temperature: {min_temp} C")
